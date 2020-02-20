@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FINAL_POO_ENRIQUE.ClsCliente">
+    <Position X="0.75" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="FINAL_POO_ENRIQUE.ClsCliente.DelOperar" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ClsCliente.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAABAUAAIAAAAAAAAAAAAAAAAAIAAAABA=</HashCode>
+      <FileName>ClsCliente.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FINAL_POO_ENRIQUE.ClsEmpleado">
+    <Position X="4.75" Y="2.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="FINAL_POO_ENRIQUE.ClsEmpleado.DelOperar" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ClsEmpleado.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAgAAAAQAAAgAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>ClsEmpleado.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FINAL_POO_ENRIQUE.ClsEmpresa">
+    <Position X="6.5" Y="0.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="FINAL_POO_ENRIQUE.ClsEmpresa.FestejarEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ClsEmpresa.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAQEABAAAAAAAAAAACgAEAAAAgAgAAAAAAAEAAACAA=</HashCode>
+      <FileName>ClsEmpresa.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ClsEmpleado" />
+      <Property Name="ClsCliente" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FINAL_POO_ENRIQUE.ClsLocalidad">
+    <Position X="8.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClsLocalidad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FINAL_POO_ENRIQUE.ClsMisArgumentos">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClsMisArgumentos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FINAL_POO_ENRIQUE.ClsPersona">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAACAAAAAAAAAAAEAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>ClsPersona.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="FINAL_POO_ENRIQUE.iInformacion">
+    <Position X="8.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>iInformacion.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
